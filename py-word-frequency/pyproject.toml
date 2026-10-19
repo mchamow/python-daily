@@ -1,5 +1,5 @@
 [project]
-name = "day-001-word-frequency"
+name = "py-word-frequency"
 version = "0.1.0"
 description = "Day 001 of 100 Days of Python: the most frequent and most distinctive words across text files"
 readme = "README.md"
@@ -10,7 +10,7 @@ requires-python = ">=3.14"
 dependencies = []
 
 [project.scripts]
-wordfreq = "day_001_word_frequency:main"
+wordfreq = "py_word_frequency:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]

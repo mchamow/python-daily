@@ -4,8 +4,8 @@ from collections import Counter
 
 import pytest
 
-from day_001_word_frequency.analysis import count_words, distinctive_words, filter_counts
-from day_001_word_frequency.text import STOP_WORDS, words
+from py_word_frequency.analysis import count_words, distinctive_words, filter_counts
+from py_word_frequency.text import STOP_WORDS, words
 
 
 @pytest.mark.parametrize(

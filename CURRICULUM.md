@@ -1,7 +1,7 @@
 # 100 Days of Python: curriculum
 
 One small, complete, working app per day, built by `/python-daily`. Each day lives in
-`NNN-slug/`: a self-contained uv project with its own dependencies, tests and a README. The
+`py-slug/`: a self-contained uv project with its own dependencies, tests and a README. The
 README is the lesson. Difficulty rises phase by phase, and later days reuse earlier ideas.
 
 Each line gives the app, then what it **shows** about Python, then the **.NET/TS angle**: what to

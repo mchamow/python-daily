@@ -5,4 +5,4 @@ Run `/python-daily` in Claude Code to build the next day. See
 
 | Day | Date | App | Highlights |
 | --- | ---- | --- | ---------- |
-| 001 | 2026-10-19 | [Word Frequency Counter](001-word-frequency/README.md) | Counter algebra, generators, argparse, pathlib rglob, casefold & Unicode regex, importlib.resources |
+| 001 | 2026-10-19 | [Word Frequency Counter](py-word-frequency/README.md) | Counter algebra, generators, argparse, pathlib rglob, casefold & Unicode regex, importlib.resources |

@@ -6,8 +6,8 @@ from pathlib import Path
 
 import pytest
 
-from day_001_word_frequency import main
-from day_001_word_frequency.sources import SourceError, iter_sources
+from py_word_frequency import main
+from py_word_frequency.sources import SourceError, iter_sources
 
 
 @pytest.fixture

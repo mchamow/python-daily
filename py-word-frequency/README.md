@@ -6,7 +6,7 @@ each file *different* from the others.
 ## Run it
 
 ```bash
-cd 001-word-frequency
+cd py-word-frequency
 uv run wordfreq data/                              # top 10 words across three novels
 uv run wordfreq data/ --ignore said --ignore one   # add your own stop words
 uv run wordfreq data/ --distinctive -n 5           # what makes each book different
@@ -17,7 +17,7 @@ uv run pytest
 
 `data/` holds public-domain excerpts from *Alice in Wonderland*, *Pride and Prejudice* and
 *Moby-Dick* (see [data/SOURCES.md](data/SOURCES.md)). `uv run wordfreq` works because
-`pyproject.toml` declares a console script: `wordfreq = "day_001_word_frequency:main"`.
+`pyproject.toml` declares a console script: `wordfreq = "py_word_frequency:main"`.
 
 ## What it looks like
 
@@ -67,17 +67,17 @@ exit=2
 ## What you'll learn
 
 - **`collections.Counter`**: a dict subclass that counts things and supports `+` and `-`
-  between counters ([analysis.py#L43](src/day_001_word_frequency/analysis.py#L43)).
+  between counters ([analysis.py#L43](src/py_word_frequency/analysis.py#L43)).
 - **Generators as streams.** `words()` yields one word at a time, and `Counter` consumes the
-  stream without building a list ([text.py#L31](src/day_001_word_frequency/text.py#L31)).
+  stream without building a list ([text.py#L31](src/py_word_frequency/text.py#L31)).
 - **`argparse`**: positional `nargs="+"`, repeatable flags and mutually exclusive options from
-  the standard library ([\_\_init\_\_.py#L14](src/day_001_word_frequency/__init__.py#L14)).
+  the standard library ([\_\_init\_\_.py#L14](src/py_word_frequency/__init__.py#L14)).
 - **`pathlib`**: recursive globbing, and reading files that might hold bad bytes
-  ([sources.py#L35](src/day_001_word_frequency/sources.py#L35)).
+  ([sources.py#L35](src/py_word_frequency/sources.py#L35)).
 - **Unicode-correct text handling**: `casefold()`, `\N{...}` escapes and a letters-only regex
-  ([text.py#L10](src/day_001_word_frequency/text.py#L10)).
+  ([text.py#L10](src/py_word_frequency/text.py#L10)).
 - **Package data with `importlib.resources`**: the stop-word list ships inside the package
-  ([text.py#L26](src/day_001_word_frequency/text.py#L26)).
+  ([text.py#L26](src/py_word_frequency/text.py#L26)).
 
 ## Code tour
 

@@ -17,7 +17,7 @@ and ends with three challenges.
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/), then:
 
 ```bash
-cd 001-word-frequency      # any day's folder
+cd py-word-frequency       # any day's folder
 uv run <command>           # the exact command is at the top of that day's README
 uv run pytest              # its tests
 ```
