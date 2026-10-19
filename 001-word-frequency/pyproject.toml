@@ -1,0 +1,36 @@
+[project]
+name = "day-001-word-frequency"
+version = "0.1.0"
+description = "Day 001 of 100 Days of Python: the most frequent and most distinctive words across text files"
+readme = "README.md"
+authors = [
+    { name = "mchamow", email = "michalchamow@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+wordfreq = "day_001_word_frequency:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.0",
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+
+[tool.mypy]
+strict = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
