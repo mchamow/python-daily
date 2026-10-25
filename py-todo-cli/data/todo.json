@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "next_id": 7,
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Renew passport",
+      "created": "2026-10-01T09:12:00+01:00",
+      "priority": "high",
+      "tags": ["admin"],
+      "due": "2026-10-20",
+      "done": null
+    },
+    {
+      "id": 2,
+      "title": "Book dentist",
+      "created": "2026-10-02T18:40:00+01:00",
+      "priority": "normal",
+      "tags": ["health"],
+      "due": null,
+      "done": "2026-10-10T08:05:00+01:00"
+    },
+    {
+      "id": 4,
+      "title": "Read PEP 695 (type parameter syntax)",
+      "created": "2026-10-19T21:30:00+01:00",
+      "priority": "low",
+      "tags": ["python"],
+      "due": null,
+      "done": null
+    },
+    {
+      "id": 5,
+      "title": "Buy oat milk",
+      "created": "2026-10-24T17:02:00+01:00",
+      "priority": "normal",
+      "tags": ["home"],
+      "due": "2026-10-26",
+      "done": null
+    },
+    {
+      "id": 6,
+      "title": "Day 5: expense splitter",
+      "created": "2026-10-24T22:15:00+01:00",
+      "priority": "high",
+      "tags": ["python"],
+      "due": "2026-10-27",
+      "done": null
+    }
+  ]
+}
