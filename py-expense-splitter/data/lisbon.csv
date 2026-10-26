@@ -1,0 +1,16 @@
+# trip: Lisbon long weekend
+# people: Ana, Ben, Cy, Dee, Eve
+paid_by,amount,description,split
+Ana,412.80,Airbnb (3 nights),all
+Ben,96.30,Airport taxis,all
+Cy,58.70,Pastéis de nata & coffee,all
+Ana,134.25,Dinner at Cervejaria Ramiro,all -Dee
+Dee,47.50,Tram 28 day passes,all
+Eve,88.10,Groceries,Ana*2 Ben Cy Dee Eve
+Ben,72.00,Fado night tickets,Ben Cy Eve
+Cy,41.90,Wine & cheese,Cy=12.40 all
+Ben,273.41,Car rental to Cascais,all
+Eve,29.99,Sunscreen & snacks,all
+Ana,63.45,Sintra train + Pena Palace,Ana Ben Dee Eve
+Dee,0.30,Bag at the supermarket,Dee Eve
+Ben,19.20,Ginjinha round,all
