@@ -1,0 +1,27 @@
+category,difficulty,question,answer,choices
+Geography,easy,What is the capital of Australia?,Canberra,Sydney|Melbourne|Perth
+Geography,easy,Which is the largest ocean on Earth?,Pacific|Pacific Ocean,Atlantic|Indian|Arctic
+Geography,medium,What is the capital of Iceland?,Reykjavík|Reykjavik,
+Geography,medium,"Which river flows through Vienna, Bratislava and Budapest?",Danube,
+Geography,medium,"Counting overseas territories, which country spans the most time zones?",France,Russia|United States|United Kingdom
+Geography,hard,Which is the only country whose national flag is not a rectangle?,Nepal,
+Science,easy,What is the chemical symbol for gold?,Au,Ag|Gd|Go
+Science,easy,Which gas makes up most of Earth's atmosphere?,Nitrogen,Oxygen|Argon|Carbon dioxide
+Science,easy,How many bones are in an adult human body?,206,
+Science,medium,Which planet has the shortest day?,Jupiter,Mercury|Saturn|Earth
+Science,medium,What kind of animal is a Komodo dragon?,Lizard|A lizard,Snake|Crocodile|Salamander
+Science,hard,Which metal has the highest melting point?,Tungsten|W,
+History,easy,In which year did the Berlin Wall fall?,1989,1987|1990|1991
+History,medium,Who was the first woman to win a Nobel Prize?,Marie Curie|Curie|Marie Skłodowska-Curie|Maria Skłodowska-Curie,
+History,medium,Which civilisation built Machu Picchu?,Inca|Incas|The Inca,Aztec|Maya|Olmec
+History,medium,Which ship carried the Pilgrims to North America in 1620?,Mayflower|The Mayflower,
+History,hard,"By the traditional date, in which year did the Western Roman Empire fall?",476,
+Literature,easy,"Which novel opens with this line?
+""It was the best of times, it was the worst of times""",A Tale of Two Cities,Great Expectations|Bleak House|Oliver Twist
+Literature,medium,Who wrote Nineteen Eighty-Four?,George Orwell|Orwell|Eric Blair,
+Literature,hard,"In Moby-Dick, what is the name of Captain Ahab's ship?",Pequod|The Pequod,Rachel|Nautilus|Hispaniola
+Computing,easy,Who created the Python programming language?,Guido van Rossum|van Rossum|Guido,
+Computing,easy,What does CSV stand for?,Comma-separated values,
+Computing,medium,In which year was Python first released?,1991,1989|1995|2000
+Computing,medium,What is 0x2A in decimal?,42,
+Computing,hard,Which company created the C# language?,Microsoft,Sun Microsystems|Borland|Oracle

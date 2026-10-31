@@ -1,0 +1,18 @@
+category;difficulty;question;answer;choices
+Python;easy;What does len({1, 1, 2}) return?;2;1|3|TypeError
+Python;easy;What is type(1 / 2).__name__?;float;int|Fraction|Decimal
+Python;easy;Which keyword hands a value out of a generator?;yield;
+Python;medium;"What does this print?
+
+    print(round(2.5), round(3.5))";2 4;3 4|2 3|3 3
+Python;medium;What is 0.1 + 0.2 == 0.3?;False;True|None|TypeError
+Python;medium;What does -7 // 2 evaluate to?;-4;-3|-3.5|-4.0
+Python;medium;What is True + True?;2;True|1|TypeError
+Python;medium;Which built-in pairs each item with its index in a loop?;enumerate;
+Python;medium;"How many lines does this print?
+
+    for i in range(2, 10, 3):
+        print(i)";3;2|4|8
+Python;hard;What is [] is []?;False;True|TypeError
+Python;hard;Which module has a cryptographically secure randbelow()?;secrets;random|os|hashlib
+Python;hard;Which PEP is The Zen of Python?;PEP 20|20;PEP 8|PEP 257|PEP 484
