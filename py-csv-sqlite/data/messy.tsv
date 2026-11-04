@@ -1,0 +1,4 @@
+Code	Amount	Count	Flag	Due	Seen At	Score	Arabic	Notes	Name	name	Zażółć gęślą
+007	1	1_000	true	2026-02-28	2026-11-04	0.5	١٢٣		Ada	ada	jaźń
+042	2.5	2000	False	2026-02-30	2026-11-04 09:30	nan	١٢		Grace	grace	łódź
+100	-3e2	 30 	YES	2026-03-01	2026-11-04T18:45:00+01:00	1.25	٧		Linus	linus	żółw

@@ -1,0 +1,4 @@
+Order #,Customer ID,Ordered At,Product,Qty,Unit Price,Discount %,Gift
+15001,12,2026-11-01T09:12:44,Desk mat,2,19.99,,no
+15002,7,2026-11-01T11:03:10,4K monitor,,349.0,10,yes
+15003,31,2026-11-02T16:40:27,Webcam,1,74.9,,no
